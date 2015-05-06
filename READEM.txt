@@ -1,0 +1,21 @@
+# boost asio Server framework
+# 使用boost asio简单封装的服务器框架
+#
+# 仅供学习和参考，任何偏离此意向的改动和使用与作者无关
+#
+# 目录src中为服务器源码
+# 目录client中为简易测试客户端源码
+# 代码依赖于boost库，在进行编译前请确保已安装boost，作者在boost-1.55中进行开发和简单测试
+# 代码支持windows和linux平台，windows请自行新建工程并配置头文件路径和库文件路径
+#
+# 在已安装boost的情况下：
+1.修改Makefile中 
+	16行 INCLUDES 路径
+	19行 LIBS路径 为相应boost的库文件和头文件路径
+	
+2.执行make，即可在当前目录生成Server文件
+
+3.服务启动的地址和端口在main.cpp写死，编译前请自行修改为相应的地址和端口
+
+
+ps：欢迎大家吐槽和交流，本人CSDN：fly2010love
